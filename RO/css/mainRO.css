@@ -1,0 +1,254 @@
+/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@font-face{
+	font-family: "ObjectSans-Regular";
+	src:url('fonts/ObjectSans-Regular.ttf')  format('truetype');
+	  font-weight: normal;
+    font-style: normal;
+}
+	
+html,h1,h2,h3,h4,h5,h6,a,p{
+	font-family: "ObjectSans-Regular";
+}
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+/*html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}*/
+
+
+.oglavlenie {
+	color:#666;
+  	margin: 2em;
+	}
+
+.navbar{
+	background:#565656;
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #E9967A;
+	color: white;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header{
+	position: relative;
+	background-image: url('../images/logo1.jpg');
+
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	/*background: rgba(244, 244, 244, 0.79);*/
+}
+.description{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    margin: 0;
+    padding: 2em;
+
+}
+/*цвет заголовка текста баннера*/
+.description h1{
+	color:black ;
+}
+/*цвет текста баннера*/
+.description p{
+	color:black;
+	font-size: 20px;
+	width: 50%;
+	line-height: 1.5;
+}
+.about{
+	margin: 4em 0;
+	padding: 0.5em;
+	position: relative;
+}
+
+.about img{
+	height: 100%;
+    width: 100%;
+    /*border-radius: 50%*/
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 0px;
+}
+
+
+
+.about .desc p{
+	
+	font-size: 20px;
+}
+
+
+/*Галерея*/
+.galery{
+	margin: 4em 0;
+    position: relative;	
+}
+
+.p-0{
+	padding: 0;
+}
+/*размер фото мероприятий */
+.galeryimg{
+   height: 80%;
+   width: 100%;
+   margin: 1em;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	
+	height: 50px;
+	width: 50px;
+}
+
+
+/*blog style*/
+
+.blog{
+	margin: 4em 0;
+	position: relative;	
+}
+/*цвет оконтовки карточки  #ccc*/
+.blog .card:hover{
+	box-shadow: 0 0 20px red;
+}
+
+@media and (max-width: 768px){
+ .team .item img{
+ 	width: 100%;
+ }	
+}
+/*Цвет заглавия карточки*/
+.blog .card-title{
+	color:black;
+	 
+}
+.blog .card-body{
+	padding:0.5em;
+	
+}
+
+
+
+
+.team{
+	
+	
+}
+
+.team .item{
+	position: relative;
+	overflow: hidden;	
+}
+.team .des{
+	background: #c70000;/*цвет нижней полоски с именем*/
+	color: #fff;/*цвет шрифта имени*/
+	text-align: center;
+	border-top-right-radius: 99%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 88%;
+	bottom: 0px;
+
+
+}
+.team .item:hover .des{
+	height: 100%;
+	background:rgba(214, 126, 118, 0.79);/*цвет анимации заливки*/
+    position: absolute;
+	width: 100%;
+	padding: 5em;
+	top: 0;
+	border-top-right-radius: 0;
+}
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+
+.contact-form .right{
+	max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+	background:  #F97300;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #888;
+	font-size: 16px;
+}
+
+
+button{
+	border:1px  solid #F97300;
+	background:#F97300;
+	color:#fff;
+}*/
+
+
+/*a { color:#fff8e7; text-decoration:none;}*/
+
+
+.go-top
+{
+    background-color: rgba(0,0,0,0.5);
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    top: 600px;
+    width: 360px;
+    text-align:center;  
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;   
+    transition: 0.5s Ease;
+}
+.smooth:hover > .go-top
+{   
+    top:0px;   
+}
+.go-top p
+{
+    font-size: 12px;
+}
+
+
+
+ul{
+	list-style-image: url("images/icon.png");
+}
+li{
+	margin:10px 0px 0px 0px;
+}
