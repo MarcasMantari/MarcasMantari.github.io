@@ -121,9 +121,8 @@ body{
 }
 /*размер фото мероприятий */
 .galeryimg{
-   height: 70%;
-   width: 90%;
-   margin: 1em;
+
+   margin: 2em;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
 	
